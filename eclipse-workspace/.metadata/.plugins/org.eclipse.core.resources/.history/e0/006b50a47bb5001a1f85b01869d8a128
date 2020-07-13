@@ -1,0 +1,32 @@
+
+public class StringRotation {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String firstString = "waterbottle";
+		String secondString = "terbottlewa";
+		boolean result = isSubstring(firstString, secondString);
+		System.out.println(result);
+	}
+
+	private static boolean isSubstring(String firstString, String secondString) {
+		if(firstString.length()!= secondString.length()) {
+			return false;
+		}
+		char [] secondStringArray = secondString.toCharArray();
+		int firstCharacterMatchIndex = findFirstCharacterMatchIndex(firstString.charAt(0), secondStringArray);
+		if(firstCharacterMatchIndex == -1) {
+			return false;
+		}
+		String newSecondString = secondString.substring(firstCharacterMatchIndex) + secondString.substring(0, secondString.length()- firstCharacterMatchIndex);
+		System.out.println(newSecondString);
+		if(newSecondString.equals(firstString)) {
+			return true;
+		}
+		return false;
+	}
+
+	private static String getNewRotationString(String oldString) {
+		return oldString.subSequence(0, 1) + Character.toString(oldString.charAt(0));
+	}
+	
+}
