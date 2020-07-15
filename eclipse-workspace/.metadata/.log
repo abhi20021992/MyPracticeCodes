@@ -3469,3 +3469,6 @@ Contains: D:\Git Code Base\MyPracticeCodes\eclipse-workspace overlaps the worksp
 !MESSAGE OK
 !SUBENTRY 2 org.eclipse.core.resources 4 77 2020-07-15 20:55:05.853
 !MESSAGE D:\Git Code Base\MyPracticeCodes\eclipse-workspace overlaps the workspace location: D:\Git Code Base\MyPracticeCodes\eclipse-workspace
+
+!ENTRY org.eclipse.equinox.security 1 0 2020-07-15 23:00:54.007
+!MESSAGE New keyring password generated. 
