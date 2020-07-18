@@ -20,6 +20,7 @@ public class ThreeInOne {
 
 class ThreeStack<T> {
 	
+	
 	T[] storage;
 	
 	public ThreeStack() {
@@ -30,7 +31,7 @@ class ThreeStack<T> {
 	public Stack<T>[] create(int size){
 		storage = (T[]) new Object[size * 3];
 		
-		return (Stack<T>[]) new Stack[] {
+		return new Stack[] {
 				new Stack<T>(size, 0, storage),
 				new Stack<T>(size, size, storage),
 				new Stack<T>(size, 2*size, storage)
