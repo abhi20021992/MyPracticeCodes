@@ -2,5 +2,10 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ThreeStack"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="InfiniteSizeStack"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="DynamicStack"/>
+    <fullyQualifiedTypeName name="CustomQueue"/>
     <fullyQualifiedTypeName name="Stack"/>
 </qualifiedTypeNameHistroy>
